@@ -1,4 +1,4 @@
-package com.cs.sigm.person_service
+package com.cs.sigm.person
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
