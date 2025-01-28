@@ -16,8 +16,5 @@ create table if not exists person.person (
 	first_name varchar(128) not null,
 	last_name varchar(128),
 	display_name varchar(32),
-	email varchar(128) not null unique,
-	phone_mobile varchar(17),
-	phone_home varchar(17),
-	phone_contact varchar(17)
+	email varchar(128) not null unique
 );

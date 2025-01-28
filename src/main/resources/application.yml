@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: person-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/csdb
+    username: climateadm
+    password: obiwan
+  jpa:
+    hibernate:
+      ddl-auto: validate
