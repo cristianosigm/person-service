@@ -3,7 +3,7 @@ spring:
     name: person-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/csdb
+    url: jdbc:postgresql://localhost:5432/climate
     username: climateadm
     password: obiwan
   jpa:

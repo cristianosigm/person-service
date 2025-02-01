@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotEmpty
 
 @Entity
 @Table(name = "person", schema = "person")
-class Person (
+class Person(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
@@ -21,5 +21,4 @@ class Person (
 
     @Column(unique = true, nullable = false)
     var email: String
-) {
-}
+)
